@@ -1,1 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* style for the header */
+.header {
+  display: grid;
+  grid-auto-flow: column;
+  background-color: rgb(240, 234, 245);
+}
+.header-logo {
+  color: blueviolet;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 7.5px;
+}
+.header-nav ul {
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  padding: 15px 0px;
+}
+.header-nav-li{
+  text-decoration: none;
+  color: gray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
+}
+.header-nav-li:hover{
+  text-decoration: underline;
+  color: rgb(214, 184, 241);
+}
