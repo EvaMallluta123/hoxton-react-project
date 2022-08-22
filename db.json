@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "SAMSUNG GALAXY Z Fold4 5G Green",
+      "price": 209.990,
+      "description": "I fuqishem. Produktiv.Ekran i madh i mahnitshem. Mbeshtjellja me e forte deri tani. Kamera Nightography. Shpalosni boten tuaj",
+      "categoryId": 3,
+      "image": "src/image/TL3686.jpg"
+    },
+    {
+      "id": 1,
+      "title": "SAMSUNG GALAXY Z Fold4 5G Green",
+      "price": 209.990,
+      "description": "I fuqishem. Produktiv.Ekran i madh i mahnitshem. Mbeshtjellja me e forte deri tani. Kamera Nightography. Shpalosni boten tuaj",
+      "categoryId": 3,
+      "image": "src/image/TL3686.jpg"
+    },
+    {
+      "id": 1,
+      "title": "SAMSUNG GALAXY Z Fold4 5G Green",
+      "price": 209.990,
+      "description": "I fuqishem. Produktiv.Ekran i madh i mahnitshem. Mbeshtjellja me e forte deri tani. Kamera Nightography. Shpalosni boten tuaj",
+      "categoryId": 3,
+      "image": "src/image/TL3686.jpg"
+    },
+    {
+      "id": 1,
+      "title": "SAMSUNG GALAXY Z Fold4 5G Green",
+      "price": 209.990,
+      "description": "I fuqishem. Produktiv.Ekran i madh i mahnitshem. Mbeshtjellja me e forte deri tani. Kamera Nightography. Shpalosni boten tuaj",
+      "categoryId": 3,
+      "image": "src/image/TL3686.jpg"
+    }
+  ]
+}
