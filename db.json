@@ -10,11 +10,11 @@
     },
     {
       "id": 3,
-      "name": "men's clothing"
+      "name": "Veshje për femra"
     },
     {
       "id": 4,
-      "name": "women's clothing"
+      "name": "Veshje për meshkuj"
     }
   ],
   "products": [
@@ -27,6 +27,14 @@
       "image": "src/image/TL3686.jpg"
     },
     {
+      "id": 11,
+      "title": "ASTIR SHOES",
+      "price": 500,
+      "description": "Vetëm duke qenë vetvetja, je krejtësisht origjinal. Festoni atë që ju bën unik në këto këpucë adidas Astir",
+      "categoryId": 3,
+      "image": "src/image/women1.webp"
+    },
+    {
       "id": 2,
       "title": "SAMSUNG GALAXY Z Flip4 5G Blue",
       "price": 110.49,
@@ -35,12 +43,28 @@
       "image": "src/image/TL3686.jpg"
     },
     {
+      "id": 20,
+      "title": "KARL LAGERFELD",
+      "price": 83,
+      "description": "E përkryer për fëmijët aktivë. E përkryer për stilimin e përditshëm",
+      "categoryId": 4,
+      "image": "src/image/men5.jpg"
+    },
+    {
       "id": 3,
       "title": "TV SAMSUNG QE85Q70BATXXH",
       "price": 407.99,
       "description": "Përmirësim i jashtëzakonshëm për imazhe të gjalla. Përmirësime të jashtëzakonshme të lëvizjes në 4K 120 Hz. HDR riprodhohet me vonesë të ulët pa thyer dhe plasaritur imazhin. ",
       "categoryId": 1,
       "image": "src/image/TV4887.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Crochet Top with Colorful Logo Details Long Dress in White",
+      "price": 240,
+      "description": "E përkryer për stilimin e përditshëm.E përkryer për raste të veçanta. Stretch Pambuku. Detaje me grep",
+      "categoryId": 3,
+      "image": "src/image/women5.jpg"
     },
     {
       "id": 4,
@@ -59,12 +83,28 @@
       "image": "src/image/LV1192.jpg"
     },
     {
+      "id": 19,
+      "title": "ADICOLOR ESSENTIALS TREFOIL SWEATSHIRT",
+      "price": 44,
+      "description": "Kur moti ndryshon, edhe garderoba juaj ndryshon. Bëjeni një mundësi. Mbështilleni me leshin e butë dhe komod të këtij xhupi adidas dhe përballuni me ajrin e ftohtë në stilin e sofistikuar dhe minimalist.",
+      "categoryId": 4,
+      "image": "src/image/men4.jpg"
+    },
+    {
       "id": 6,
       "title": "Magnetic Floating Stacker",
       "price": 32.00,
       "description": "Të projektuara posaçërisht për duart e vogla dhe imagjinatën e fëmijëve të moshës 12 muajsh deri në 3 vjeç, këto lodra janë ndërtuar për të nxitur eksperimentimin e gjallë dhe gëzimin e zbulimit.",
       "categoryId": 2,
       "image": "src/image/lodra1.webp"
+    },
+    {
+      "id": 12,
+      "title": "ADICOLOR ESSENTIALS CREW SWEATSHIRT",
+      "price": 55,
+      "description": "Ky xhup adidas Adicolor mishëron shpirtin e lezetshëm, por të rastësishëm.",
+      "categoryId": 3,
+      "image": "src/image/women2.jpg"
     },
     {
       "id": 7,
@@ -75,12 +115,36 @@
       "image": "src/image/lodra2.webp"
     },
     {
+      "id": 16,
+      "title": "ULTRABOOST SUPERNOVA DNA SHOES",
+      "price": 190,
+      "description": "Komoditeti nuk del kurrë nga moda. Këto këpucë vrapimi rikthejnë udhëtimin e qetë të Supernovës origjinale nga fundi i viteve '90 dhe e bashkojnë atë me teknologjitë Ultraboost si adidas PRIMEKNIT që përqafon këmbët.",
+      "categoryId": 4,
+      "image": "src/image/men1.jpg"
+    },
+    {
       "id": 8,
       "title": "Swivel Bug",
       "price": 15.00,
       "description": "Të projektuara posaçërisht për duart e vogla dhe imagjinatën e fëmijëve të moshës 12 muajsh deri në 3 vjeç, këto lodra janë ndërtuar për të nxitur eksperimentimin e gjallë dhe gëzimin e zbulimit.",
       "categoryId": 2,
       "image": "src/image/lodra3.webp"
+    },
+    {
+      "id": 18,
+      "title": "ESSENTIALS WARM-UP TAPERED 3-STRIPES TRACK PANTS",
+      "price": 45,
+      "description": "Ata quhen pantallona ngrohëse për një arsye. Shtresa e përsosur për të përgatitur mendjen dhe muskujt tuaj, këto pantallona adidas janë bërë nga triko klasike sportive për një pamje dhe ndjesi të qetë..",
+      "categoryId": 4,
+      "image": "src/image/men3.jpg"
+    },
+    {
+      "id": 14,
+      "title": "SUPERLITE HAT",
+      "price": 24,
+      "description": "Kur dielli flakëron, ju duhet të visheni në përputhje me rrethanat. Mbushni grupin tuaj të stërvitjeve në mot të ngrohtë me këtë Kapelë Superlite të adidas.",
+      "categoryId": 3,
+      "image": "src/image/women4.jpg"
     },
     {
       "id": 9,
@@ -91,12 +155,28 @@
       "image": "src/image/lodra4.webp"
     }, 
     {
+      "id": 13,
+      "title": "PUFFER SHOPPER TOTE BAG",
+      "price": 40,
+      "description": "Gjërat, mbyllni zinxhirin dhe shkoni. Është e lehtë të dalësh nga dera me këtë çantë adidas për blerës. Dhe është po aq e lehtë të qëndrosh i organizuar kudo që të shkosh më pas.",
+      "categoryId": 3,
+      "image": "src/image/women3.jpg"
+    },
+    {
       "id": 10,
       "title": "Magnetic Wooden Blocks",
       "price": 140.00,
       "description": "Përfshin 52 blloqe në 4 forma: 20 kube, 16 dërrasa të gjata, 10 dërrasa të shkurtra dhe 6 dërrasa të vogla",
       "categoryId": 2,
       "image": "src/image/lodra5.webp"
-    }
+    },
+{
+      "id": 17,
+      "title": "AMPLIFIER SHORT SLEEVE BADGE OF SPORT TEE",
+      "price": 15,
+      "description": "Stil i thjeshtë dhe një simbol klasik adidas i sportit. Kjo është gjithçka që ju nevojitet. Kjo bluzë adidas është prerë për një përshtatje të rregullt nga pëlhurë e butë pambuku teke triko.",
+      "categoryId": 4,
+      "image": "src/image/men2.jpg"
+    }    
   ]
 }
