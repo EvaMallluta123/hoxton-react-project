@@ -1,36 +1,102 @@
 {
+  "categories": [
+    {
+      "id": 1,
+      "name": "Elektroshtëpiake"
+    },
+    {
+      "id": 2,
+      "name": "Lodra për fëmijë"
+    },
+    {
+      "id": 3,
+      "name": "men's clothing"
+    },
+    {
+      "id": 4,
+      "name": "women's clothing"
+    }
+  ],
   "products": [
     {
       "id": 1,
       "title": "SAMSUNG GALAXY Z Fold4 5G Green",
-      "price": 209.990,
+      "price": 209.99,
       "description": "I fuqishem. Produktiv.Ekran i madh i mahnitshem. Mbeshtjellja me e forte deri tani. Kamera Nightography. Shpalosni boten tuaj",
-      "categoryId": 3,
+      "categoryId": 1,
       "image": "src/image/TL3686.jpg"
     },
     {
-      "id": 1,
-      "title": "SAMSUNG GALAXY Z Fold4 5G Green",
-      "price": 209.990,
-      "description": "I fuqishem. Produktiv.Ekran i madh i mahnitshem. Mbeshtjellja me e forte deri tani. Kamera Nightography. Shpalosni boten tuaj",
-      "categoryId": 3,
+      "id": 2,
+      "title": "SAMSUNG GALAXY Z Flip4 5G Blue",
+      "price": 110.49,
+      "description": "Shkrepni jeten ne nje perspektive te re. E pershtatur me permbajtjen tuaj. E durueshme brenda dhe jashte. Shpalosni boten tuaj",
+      "categoryId": 1,
       "image": "src/image/TL3686.jpg"
     },
     {
-      "id": 1,
-      "title": "SAMSUNG GALAXY Z Fold4 5G Green",
-      "price": 209.990,
-      "description": "I fuqishem. Produktiv.Ekran i madh i mahnitshem. Mbeshtjellja me e forte deri tani. Kamera Nightography. Shpalosni boten tuaj",
-      "categoryId": 3,
-      "image": "src/image/TL3686.jpg"
+      "id": 3,
+      "title": "TV SAMSUNG QE85Q70BATXXH",
+      "price": 407.99,
+      "description": "Përmirësim i jashtëzakonshëm për imazhe të gjalla. Përmirësime të jashtëzakonshme të lëvizjes në 4K 120 Hz. HDR riprodhohet me vonesë të ulët pa thyer dhe plasaritur imazhin. ",
+      "categoryId": 1,
+      "image": "src/image/TV4887.jpg"
     },
     {
-      "id": 1,
-      "title": "SAMSUNG GALAXY Z Fold4 5G Green",
-      "price": 209.990,
-      "description": "I fuqishem. Produktiv.Ekran i madh i mahnitshem. Mbeshtjellja me e forte deri tani. Kamera Nightography. Shpalosni boten tuaj",
-      "categoryId": 3,
-      "image": "src/image/TL3686.jpg"
+      "id": 4,
+      "title": "FRIGORIFER BEKO GN162341XBRN",
+      "price": 147.99,
+      "description": "Sistemi i ftohjes dyshe NeoFrost: 7 sisteme ftohje te ndara, pa perzier aromat. Ruan rrjedhen ideale te ajrit dhe temperaturen optimale.Kompresori Inverter ProSmart: funksionim ultra i qete ne standardet me te larta te efikasitetit te energjise",
+      "categoryId": 1,
+      "image": "src/image/FG1242.jpg"
+    },
+    {
+      "id": 5,
+      "title": "THARESE RROBASH LG RH80V3AV0N",
+      "price": 75.99,
+      "description": "Me teknologjinë Eco Bubble™ përfitoni pastrim efikas, edhe në temperatura të ulëta*. Detergjenti kthehet në flluska, prandaj depërton me shpejtësi në pëlhurë dhe heq me lehtësi papastërtitë, ndërsa kursen energji dhe mbron ngjyrat dhe teksturën**.",
+      "categoryId": 1,
+      "image": "src/image/LV1192.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Magnetic Floating Stacker",
+      "price": 32.00,
+      "description": "Të projektuara posaçërisht për duart e vogla dhe imagjinatën e fëmijëve të moshës 12 muajsh deri në 3 vjeç, këto lodra janë ndërtuar për të nxitur eksperimentimin e gjallë dhe gëzimin e zbulimit.",
+      "categoryId": 2,
+      "image": "src/image/lodra1.webp"
+    },
+    {
+      "id": 7,
+      "title": "Magnetic Shape Train",
+      "price": 50.00,
+      "description": "Të projektuara posaçërisht për duart e vogla dhe imagjinatën e fëmijëve të moshës 12 muajsh deri në 3 vjeç, këto lodra janë ndërtuar për të nxitur eksperimentimin e gjallë dhe gëzimin e zbulimit.",
+      "categoryId": 2,
+      "image": "src/image/lodra2.webp"
+    },
+    {
+      "id": 8,
+      "title": "Swivel Bug",
+      "price": 15.00,
+      "description": "Të projektuara posaçërisht për duart e vogla dhe imagjinatën e fëmijëve të moshës 12 muajsh deri në 3 vjeç, këto lodra janë ndërtuar për të nxitur eksperimentimin e gjallë dhe gëzimin e zbulimit.",
+      "categoryId": 2,
+      "image": "src/image/lodra3.webp"
+    },
+    {
+      "id": 9,
+      "title": "Magbot",
+      "price": 35.00,
+      "description": "Kjo linjë inovative përfshin 14 forma të reja, origjinale dhe kombinon në mënyrë unike grafikë të printuar me drurë të bukur",
+      "categoryId": 2,
+      "image": "src/image/lodra4.webp"
+    }, 
+    {
+      "id": 10,
+      "title": "Magnetic Wooden Blocks",
+      "price": 140.00,
+      "description": "Përfshin 52 blloqe në 4 forma: 20 kube, 16 dërrasa të gjata, 10 dërrasa të shkurtra dhe 6 dërrasa të vogla",
+      "categoryId": 2,
+      "image": "src/image/lodra5.webp"
     }
   ]
 }

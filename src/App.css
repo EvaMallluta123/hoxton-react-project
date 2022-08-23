@@ -34,20 +34,20 @@
   --white-violet:rgb(240, 234, 245) ;
 }
 /* style for the product page */
-.product{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
-  justify-content: center;
-  gap: 3rem;
-  margin-top: 20px;
-}
 .product-item{
   display: grid;
   grid-template-rows: 1fr auto;
   grid-row-gap: 2rem;
   height: 100%;
-  padding: 2rem;
+  padding: 1rem;
   place-items: center;
   background-color: var(--white-violet);
 }
-
+.products-ul{
+display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 20px;
+ list-style: none;
+}
