@@ -4,6 +4,7 @@ import { Link, Routes, Route } from "react-router-dom";
 import { Header } from "./Components/Header";
 import { Products } from "./pages/Products";
 import { ProductDetail } from "./pages/ProductDetail";
+import { Categories } from "./pages/Categories";
 
 function App() {
   return (
@@ -14,12 +15,13 @@ function App() {
           <Routes>
             <Route path="/products" element={<Products />} />
             <Route path="/products/:id" element={<ProductDetail />} />
-            <Route path="/categories" />
+            <Route path="/categories" element={<Categories/>} />
             <Route path="/basket" />
             <Route path="/sing-in" />
           </Routes>
         </main>
       </>
+  
     </div>
   );
 }
