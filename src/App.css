@@ -94,20 +94,16 @@ display: grid;
 
 .categories--list{
   display: grid;
-  height: 100%;
   grid-template-columns: repeat(auto-fit, 500px);
-  grid-gap: 2rem;
+  grid-gap: 2.4rem;
   place-content: center;
-margin: 100px;
+  margin: 50px;
 }
 .categories--list li{
   display: grid;
-  height: 200px;
+  height: 150px;
   border: 2px solid var(--violet);
   background-color: var(--white-violet);
   place-items: center;
-  text-transform: capitalize;
-  text-align: center;
-  color: var(--white);
   font-size: 2.5rem;
 }

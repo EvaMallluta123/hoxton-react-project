@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { Link } from "react-router-dom"
 import { Category } from "../type"
 
 export function Categories(){
@@ -13,7 +14,7 @@ fetch("http://localhost:4000/categories")
         <ul className="categories--list">
           {categories.map(categori=>(
           <li>
-          {categori.name}
+         <Link to={`/categories/${categori.id}`}> {categori.name}</Link>
           </li>
           ))}
         </ul>
