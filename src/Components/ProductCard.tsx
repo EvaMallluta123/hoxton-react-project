@@ -6,12 +6,12 @@ type Props={
 export function ProductCard({product} :Props){
     return(
         <li className="product">
-        {/* <Link to={`/products/${product.id}`}> */}
+        <Link to={`/products/${product.id}`}>
         <article className="product-item">
        <img src={product.image} alt={product.title}  width="130"/>
        <h4>{product.title}</h4>
      </article>
-     {/* </Link> */}
+     </Link>
      </li>
     )
 }

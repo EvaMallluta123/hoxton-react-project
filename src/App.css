@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  text-decoration: none;
 }
 /* style for the header */
 .header {
@@ -32,6 +33,7 @@
 }
 :root{
   --white-violet:rgb(240, 234, 245) ;
+  --violet: violet
 }
 /* style for the product page */
 .product-item{
@@ -50,4 +52,38 @@ display: grid;
   gap: 3rem;
   margin-top: 20px;
  list-style: none;
+}
+/* style for product detail */
+.product-detail{
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  margin-top: 70px;
+}
+.product-detail > img {
+  align-self: center;
+}
+
+.product-detail-info{
+  display: grid;
+  grid-auto-flow: row;
+  padding-left: 1rem;
+  border-left: 2px solid violet;
+}
+.product-detail-info p {
+  max-width: 50%;
+  max-height: 150ch;
+  margin-top: 1rem;;
+  text-overflow: ellipsis;
+}
+.product-detail-info button {
+  padding: 0.5rem;
+  border: 2px solid var(--violet);
+  justify-self: end;
+  margin-right: 5rem;
+  background-color: white;
+  color: var(--violet);
+}
+
+.product-detail-info button:hover {
+  background-color: var(--white-violet);
 }
