@@ -135,3 +135,34 @@ display: grid;
     place-content: end;
    margin-right: 100px;
   }
+
+  .sign-in {
+    display: grid;
+    place-content: center;
+    height: 100%;
+    margin-top: 100px;
+  }
+  
+  .sign-in form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .sign-in input {
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    border: 2px solid var(--white-violet);
+  }
+  
+  .sign-in button {
+    color: white;
+    background-color: var(--violet);
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  
+  .sign-in button:hover {
+    filter: brightness(1.4);
+  }
+  

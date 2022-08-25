@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import { Product } from "../type"
+type Props = {
+    addItemToBasket: (item: Product) => void
+  }
 
-export function ProductDetail (){
+export function ProductDetail ({addItemToBasket}:Props){
     const[product, setProduct]=useState<Product | null>(null)
     const params = useParams()
 
@@ -21,7 +24,10 @@ export function ProductDetail (){
           <h2>{product.title}</h2>
           <p>{product.description}</p>
           <p> Çmimi: {product.price} lekë</p>
-          <button>Add to basket</button>
+          <button onClick={() => {
+            addItemToBasket(product)
+          }}>
+            Add to basket</button>
         </div>
     
        </section>

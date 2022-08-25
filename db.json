@@ -93,7 +93,7 @@
     {
       "id": 6,
       "title": "Magnetic Floating Stacker",
-      "price": 32.00,
+      "price": 32,
       "description": "Të projektuara posaçërisht për duart e vogla dhe imagjinatën e fëmijëve të moshës 12 muajsh deri në 3 vjeç, këto lodra janë ndërtuar për të nxitur eksperimentimin e gjallë dhe gëzimin e zbulimit.",
       "categoryId": 2,
       "image": "src/image/lodra1.webp"
@@ -109,7 +109,7 @@
     {
       "id": 7,
       "title": "Magnetic Shape Train",
-      "price": 50.00,
+      "price": 50,
       "description": "Të projektuara posaçërisht për duart e vogla dhe imagjinatën e fëmijëve të moshës 12 muajsh deri në 3 vjeç, këto lodra janë ndërtuar për të nxitur eksperimentimin e gjallë dhe gëzimin e zbulimit.",
       "categoryId": 2,
       "image": "src/image/lodra2.webp"
@@ -125,7 +125,7 @@
     {
       "id": 8,
       "title": "Swivel Bug",
-      "price": 15.00,
+      "price": 15,
       "description": "Të projektuara posaçërisht për duart e vogla dhe imagjinatën e fëmijëve të moshës 12 muajsh deri në 3 vjeç, këto lodra janë ndërtuar për të nxitur eksperimentimin e gjallë dhe gëzimin e zbulimit.",
       "categoryId": 2,
       "image": "src/image/lodra3.webp"
@@ -149,11 +149,11 @@
     {
       "id": 9,
       "title": "Magbot",
-      "price": 35.00,
+      "price": 35,
       "description": "Kjo linjë inovative përfshin 14 forma të reja, origjinale dhe kombinon në mënyrë unike grafikë të printuar me drurë të bukur",
       "categoryId": 2,
       "image": "src/image/lodra4.webp"
-    }, 
+    },
     {
       "id": 13,
       "title": "PUFFER SHOPPER TOTE BAG",
@@ -165,18 +165,56 @@
     {
       "id": 10,
       "title": "Magnetic Wooden Blocks",
-      "price": 140.00,
+      "price": 140,
       "description": "Përfshin 52 blloqe në 4 forma: 20 kube, 16 dërrasa të gjata, 10 dërrasa të shkurtra dhe 6 dërrasa të vogla",
       "categoryId": 2,
       "image": "src/image/lodra5.webp"
     },
-{
+    {
       "id": 17,
       "title": "AMPLIFIER SHORT SLEEVE BADGE OF SPORT TEE",
       "price": 15,
       "description": "Stil i thjeshtë dhe një simbol klasik adidas i sportit. Kjo është gjithçka që ju nevojitet. Kjo bluzë adidas është prerë për një përshtatje të rregullt nga pëlhurë e butë pambuku teke triko.",
       "categoryId": 4,
       "image": "src/image/men2.jpg"
-    }    
+    }
+  ],
+  "basket": [
+    {
+      "productId": 1,
+      "quantity": 9,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "productId": 11,
+      "quantity": 1,
+      "userId": "eva123@email.com",
+      "id": 2
+    },
+    {
+      "productId": 2,
+      "quantity": 1,
+      "userId": "eva123@email.com",
+      "id": 3
+    },
+    {
+      "productId": 3,
+      "quantity": 1,
+      "userId": "eva123@email.com",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "name": "Eva",
+      "id": "eva123@email.com",
+      "password": "evamalluta123"
+    },
+    {
+      "name": "Diana",
+      "id": "diana123@email.com",
+      "password": "diana123"
+    }
   ]
 }

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export function Header(){
+export function Header({signOut}){
     return(
         <header className="header">
         <h2 className="header-logo">e-ShopiAl</h2>
@@ -19,7 +19,9 @@ export function Header(){
               <Link to="sing-in" className="header-nav-li"> Sing-In</Link>
             </li>
             <li>
-              <button>Sign Out</button>
+              <button onClick={()=>{
+               signOut ()
+              }}>Sign Out</button>
             </li>
           </ul>
         </nav>
