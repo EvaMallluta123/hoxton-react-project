@@ -1,4 +1,4 @@
-import { useLocation, useParams } from 'react-router-dom'
+
 import { User } from '../type'
 
 type Props = {
@@ -15,7 +15,6 @@ export function SignIn ({ signIn }: Props) {
       .then(resp => resp.json())
       .then(user => {
         if (user.password === password) {
-          // the user exists AND their password is valid
           signIn(user)
         } else {
           alert('Your email/password is invalid.')
