@@ -1,9 +1,10 @@
 import { BasketItem } from "../type"
 
 type Props = {
-    item: BasketItem
+    item: BasketItem,
+    updateOrRemoveItem: (item: BasketItem, newQuantity: number) => void
   }
-export function BasketCard({item}:Props){
+export function BasketCard({item, updateOrRemoveItem }:Props){
 
     return(
 <li >
@@ -12,7 +13,14 @@ export function BasketCard({item}:Props){
         <p>{item.product.title}</p>
         <p>
           Qty:
-          <select>
+          <select
+           
+               value={item.quantity}
+               onChange={event => {
+                 const newQuantity = Number(event.target.value)
+                 updateOrRemoveItem(item, newQuantity)
+               }}
+             >
             <option value='0'>0</option>
             <option value='1'>1</option>
             <option value='2'>2</option>

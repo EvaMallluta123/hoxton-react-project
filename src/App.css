@@ -118,22 +118,23 @@ display: grid;
   width: 80%;
  margin-left: 150px;
 }
-  .basket > h2 {
+  .basket-container > h2 {
     margin: 2rem 0;
     font-size: 2.5rem;
-   margin-left: 400px;
+   margin-left: 200px;
   }
-  .basket > ul {
+  .basket-container > ul {
     border-radius: 5px;
     height: 60vh;
     padding: 2rem;
     overflow-y: auto;
     scrollbar-width: thin;
   }
-  .basket h3{
+  .basket-container h3{
     display: grid;
     place-content: end;
-   margin-right: 100px;
+    margin-right: 50px;
+   
   }
 
   .sign-in {

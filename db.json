@@ -52,7 +52,7 @@
     },
     {
       "id": 3,
-      "title": "TV SAMSUNG QE85Q70BATXXH",
+      "title": "TV SAMSUNG QE85Q7",
       "price": 407.99,
       "description": "Përmirësim i jashtëzakonshëm për imazhe të gjalla. Përmirësime të jashtëzakonshme të lëvizjes në 4K 120 Hz. HDR riprodhohet me vonesë të ulët pa thyer dhe plasaritur imazhin. ",
       "categoryId": 1,
@@ -181,28 +181,16 @@
   ],
   "basket": [
     {
-      "productId": 1,
-      "quantity": 9,
-      "userId": 1,
-      "id": 1
-    },
-    {
       "productId": 11,
-      "quantity": 1,
+      "quantity": 2,
       "userId": "eva123@email.com",
       "id": 2
     },
     {
-      "productId": 2,
-      "quantity": 1,
+      "productId": 20,
+      "quantity": 3,
       "userId": "eva123@email.com",
-      "id": 3
-    },
-    {
-      "productId": 3,
-      "quantity": 1,
-      "userId": "eva123@email.com",
-      "id": 4
+      "id": 6
     }
   ],
   "users": [

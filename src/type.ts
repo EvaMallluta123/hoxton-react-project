@@ -1,9 +1,11 @@
 export type Category = {
   id: number;
   name: string;
+  products: Product[]
 };
 
 export type Product = {
+  products: any;
   id: number;
   title: string;
   price: number;
